@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "homework-5-asynchronic"
+version = "0.1.0"
+description = ""
+authors = ["LuytensStar <artem05zhar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
